@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+#contact {
+    padding: 15vh 100px 15vh 100px;
+    height: 70vh;
+    border-bottom: 45px solid black;
+}
+
+.contact_title{
+    font-size: 45px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    text-align: right;
+    color: black;
+    font-family: "Anton", sans-serif;
+}
+
+.contact_img_box{
+    text-align: center;
+    height: 45%;
+}
+
+.contact_img_box img{
+    height: 100%;
+    animation: floatCloud 5s infinite linear alternate; /* floatCloud 애니메이션을 5초 동안 반복하여 적용 */
+    transition: transform 0.3s ease;
+}
+
+@keyframes floatCloud {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-30px); /* 약간 위로 움직이는 효과 */
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.contact_img_box img:hover {
+    transform: scale(1.1); /* 호버 시 이미지를 1.1배 크기로 확대 */
+} 

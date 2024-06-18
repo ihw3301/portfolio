@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<script defer src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<!-- -------------------- 메인베너 부분 -------------------- -->
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script defer src="./js/h_f.js"></script>
+<script defer src="./js/skills.js"></script>
+<script defer src="./js/main_banner.js"></script>
+<script defer src="./js/about_me.js"></script>
+<script defer src="./js/projects.js"></script>
+<script defer src="./js/projects2.js"></script>
+<script defer src="./js/contact.js"></script>
+
+<link rel="stylesheet" href="./css/h_f.css">
+<link rel="stylesheet" href="./css/about_me.css">
+<link rel="stylesheet" href="./css/main_banner.css">
+<link rel="stylesheet" href="./css/skills.css">
+<link rel="stylesheet" href="./css/projects.css">
+<link rel="stylesheet" href="./css/projects2.css">
+<link rel="stylesheet" href="./css/contact.css">
+
+<style>
+/* CSS 스타일링 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+    font-family: "Noto Sans KR", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    /* padding: 20px; */
+    height: 100vh;
+    /* margin: 0 0 20px 0; */
+}
+
+
+
+</style>
+</head>
+<body>
+<header id="header">
+    <nav>
+        <a href="#main-banner">TOP</a>
+        <a href="#about-me">About Me</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#projects">PhΦibos</a>
+        <a href="#projects2">USED</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+</header>
+
+<section id="main-banner">
+    <div id="page_wrap">
+        <div class="banner">
+            <div class="typed_wrap">
+                <h1>저는 <span class="typed"></span></h1>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about-me">
+    <div class="about-me_title">About Me</div>
+    <div class="about-me_box">
+        <div class="about-me-group1">
+            <img src="./img/임현우.jpg" alt="">
+            <div class="img_dsc">
+                <div class="img_dsc_name">임현우</div>
+                <div class="img_dsc_info">1994.09.15 · 서울시 광진구 자양동</div>
+            </div>
+        </div>
+        <div class="about-me-group2">
+            <div class="info_title"><span>INFORMATION</span></div>
+            <div class="info_detail info_detail_top">
+                <div class="info_detail_title">EDUCATION</div>
+                <div class="info_detail_txt_box">
+                    <div class="info_detail_txt">2024.07 KH정보교육원 자바개발자 양성과정 수료 예정</div>
+                    <div class="info_detail_txt">2021.02 서강대학교 일반대학원 철학과 석사 수료</div>
+                    <div class="info_detail_txt">2019.02 경희대학교 사학과 졸업</div>
+                    <div class="info_detail_txt">2013.02 인창고등학교 졸업</div>
+                </div>
+            </div>
+            <div class="info_detail">
+                <div class="info_detail_title">CAREER</div>
+                <div class="info_detail_txt_box">
+                    <div class="info_detail_txt">2022.01-2022.12 건국대학교 이과대학 수학과 행정조교</div>
+                    <div class="info_detail_txt">2020.09-2021.02 서강대학교 교수학습센터 행정조교</div>
+                    <div class="info_detail_txt">2019.03-2020.08 서강대학교 문과대학 철학과 수업조교</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="skills">
+    <div class="skills_title">Skills</div>
+    <div class="skill-box">
+        <div class="skill-group">
+            <div class="bar">
+                <img src="https://static.vecteezy.com/system/resources/previews/027/127/463/original/javascript-logo-javascript-icon-transparent-free-png.png" alt="HTML Icon">
+                <div class="skill_gage_box">
+                    <div class="skill js" data-target-width="80" style="width: 0%;"><span>0%</span></div>
+                </div>
+            </div>
+            <div class="bar">
+                <img src="https://velog.velcdn.com/images/milkyway/post/6519342f-4b66-4f9b-bc36-236aba7e0aaf/HTML%20logo.jpeg" alt="HTML Icon">
+                <div class="skill_gage_box">
+                    <div class="skill html" data-target-width="85" style="width: 0%;"><span>0%</span></div>
+                </div>
+            </div>
+            <div class="bar">
+                <img src="https://i.imgflip.com/6ejuoo.png" alt="HTML Icon">
+                <div class="skill_gage_box">
+                    <div class="skill css" data-target-width="85" style="width: 0%;"><span>0%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="skill-group">
+            <div class="bar">
+                <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-512.png" alt="HTML Icon">
+                <div class="skill_gage_box">
+                    <div class="skill java" data-target-width="75" style="width: 0%;"><span>0%</span></div>
+                </div>
+            </div>
+            <div class="bar">
+                <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F9925D83A5FDB20B931" alt="HTML Icon">
+                <div class="skill_gage_box">
+                    <div class="skill spring" data-target-width="80" style="width: 0%;"><span>0%</span></div>
+                </div>
+            </div>
+            <div class="bar">
+                <img src="https://www.svgrepo.com/show/303251/mysql-logo.svg" alt="HTML Icon">
+                <div class="skill_gage_box">
+                    <div class="skill mysql" data-target-width="75" style="width: 0%;"><span>0%</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="projects">
+    <div class="projects_box">
+        <div class="projects_title"><span>PhΦibos</span></div>
+        <div class="animation" data-animation-step="1">
+            <div class="device">
+                <div class="phone-home-button"></div>
+                <div class="tablet-home-button"></div>
+                <div class="screen-stand">
+                    <div class="leg"></div>
+                    <div class="foot"></div>
+                </div>
+                <div class="display">
+                    <div class="slide1">
+                    </div>
+                    <div class="slide2">
+                    </div>
+                    <div class="slide3">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="projects_desc_box">
+            <div class="projects_desc">■ VIEWPORT &nbsp&nbsp&nbsp<span>반응형</span></div>
+            <div class="projects_desc">■ SKILLS
+                <div class="projects_desc_skills">
+                    <div class="projects_desc_skills_box">HTML</div>
+                    <div class="projects_desc_skills_box">CSS</div>
+                    <div class="projects_desc_skills_box">JavaScript</div>
+                    <div class="projects_desc_skills_box">jQuery</div>
+                </div>
+            </div>
+            <div class="projects_desc">■ DESCRIPTION
+                <div class="projects_desc_txt">기존의 탑텐을 모방하여 흑백의 선명한 대비를 인상적으로 부각시키고, 단순한 디자인을 통해 복잡하지 않은 청아한 고급스러움을
+                    강조하였습니다.</div>
+            </div>
+            <div class="projects_desc_btn">
+                <a href="https://ihw3301.github.io/phoibos/" target="_blank"><button>PhΦibos</button></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="projects2">
+    <div class="projects_box">
+        <div class="projects_title"><span>USED</span></div>
+        <div class="animation" data-animation-step="1">
+            <div class="device">
+                <div class="phone-home-button"></div>
+                <div class="tablet-home-button"></div>
+                <div class="screen-stand">
+                    <div class="leg"></div>
+                    <div class="foot"></div>
+                </div>
+                <div class="display">
+                    <div class="slide1">
+                    </div>
+                    <div class="slide2">
+                    </div>
+                    <div class="slide3">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="projects_desc_box">
+            <div class="projects_desc">■ VIEWPORT &nbsp&nbsp&nbsp<span>반응형</span></div>
+            <div class="projects_desc">■ SKILLS
+                <div class="projects_desc_skills">
+                    <div class="projects_desc_skills_box">HTML</div>
+                    <div class="projects_desc_skills_box">CSS</div>
+                    <div class="projects_desc_skills_box">JavaScript</div>
+                    <div class="projects_desc_skills_box">jQuery</div>
+                    <div class="projects_desc_skills_box">Ajax</div>
+                    <div class="projects_desc_skills_box">Java</div>
+                                        <div class="projects_desc_skills_box">MySQL</div>
+                    <div class="projects_desc_skills_box">Spring</div>
+                    <div class="projects_desc_skills_box">MyBatis</div>
+                </div>
+            </div>
+            <div class="projects_desc">■ DESCRIPTION
+                <div class="projects_desc_txt">
+                    로그인과 회원가입 기능을 비롯하여, 서버에 등록된 4천여 개의 상품들에 대한 일반 · 조건별 검색 기능을 지원하고, 상품 등록 및 무한 댓글형 게시판을 통해 판매 기능을 지원합니다.
+                </div>
+            </div>
+            <div class="projects_desc_btn">
+                <a href="https://github.com/ihw3301/used" target="_blank"><button>USED</button></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="contact_title">CONTACT</div>
+    <div class="contact_img_box">
+        <a href="https://open.kakao.com/o/sY1RuHxg" target="_blank"><img src="https://cdn0.iconfinder.com/data/icons/social-media-entertainment-line/32/Kakaotalk-512.png" alt=""></a>
+    </div>
+</section>
+
+<script>
+
+</script>
+</body>
+</html>
